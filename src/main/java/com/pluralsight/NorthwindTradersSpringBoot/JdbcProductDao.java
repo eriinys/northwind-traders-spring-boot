@@ -12,11 +12,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class JdbcProdcutDao implements ProductDao {
+public class JdbcProductDao implements ProductDao {
    private DataSource dataSource;
 
    @Autowired
-   public JdbcProdcutDao(DataSource dataSource){
+   public JdbcProductDao(DataSource dataSource){
        this.dataSource = dataSource;
    }
 
